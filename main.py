@@ -27,6 +27,7 @@ class Game:  # pylint: disable=R0903
                     pygame.quit()  # pylint: disable=E1101
                     sys.exit()
 
+            pygame.display.set_caption("Zeelda")
             self.screen.fill("black")
             pygame.display.update()
             self.clock.tick(FPS)
